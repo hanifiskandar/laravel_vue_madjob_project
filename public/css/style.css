@@ -1,0 +1,119 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 500;
+}
+
+.nav-link{
+    color:rgb(10, 10, 94);
+}
+.nav-link:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+.nav-item{
+    color:rgb(7, 7, 78);
+    font-weight: 500;
+    padding-left: 35px;
+
+}
+
+/* Utilities */
+
+.font-weight-500{
+    font-weight: 500;
+}
+.center{
+    text-align: center;
+}
+
+
+/* Job Search section */
+/* .search{
+    background-color: rgb(169,169,169);
+    height: 250px;
+}
+.content-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+} */
+
+
+.search {
+    /* background-color: rgb(129, 129, 129); */
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-search {
+    text-align: center; /* Center the text horizontally */
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 500;
+}
+
+
+/* Job */
+
+.job{
+    /* background-color:#f8f9fa; */
+    /* background-color:#f4f4f4; */
+    height: 100%;
+    padding-bottom: 20px;
+}
+.profile
+{
+    height: 90vh; /* Set height to 100% of the viewport height */
+}
+.profile .container{
+    /* padding: 30px 20px;
+    border-radius: 10px; */
+    padding-top: 50px; /* Adjust as needed */
+    padding-bottom: 50px; /* Adjust as needed */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.half-height {
+    height: 250px;
+    max-height: 50%;
+    width: auto; 
+    max-width: 100%; 
+}
+/* .form-signin {
+    width: 100%;
+    max-width: 600px;
+    height: 500px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  } */
